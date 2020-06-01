@@ -8,9 +8,10 @@ This network uses Resnet as a backbone network for feature extraction. While Atr
     Numpy, CV2, PIL, etc
 
 # Usage 
-- Run prediction.py by Python for predictions. You can modify model_dir, data_dir, output_dir to modify directories to predictions.
+    Run prediction.py by Python for predictions. You can modify model_dir, data_dir, output_dir to modify directories to predictions.
 
-- Run train.py by Python to train network. You can modify several options in train.py. You can change the number of GPUs, Model directory, Dataset directory, etc by modifying flags options. First, you have to convert your own dataset into tfrecord by utils/dataset_util.py. You can simply define a make tfrecord function in dataset_util.py to convert your dataset into tfrecord. And then, change model_dir, train_data, test_data in train.py, and run. You can change other variables to train your network like batch_size, max_iter, etc.
+    Run train.py by Python to train network. You can modify several options in train.py. You can change the number of GPUs, Model directory, Dataset directory, etc by modifying flags options. 
+    First, you have to convert your own dataset into tfrecord by utils/dataset_util.py. You can simply define a make tfrecord function in dataset_util.py to convert your dataset into tfrecord. And then, change model_dir, train_data, test_data in train.py, and run. You can change other variables to train your network like batch_size, max_iter, etc.
 
 
 # reference
