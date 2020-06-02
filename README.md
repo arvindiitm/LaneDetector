@@ -20,4 +20,5 @@ This network uses Resnet as a backbone network for feature extraction. While Atr
 -  [DrSleep/tensorflow-deeplab-resnet ](https://github.com/DrSleep/tensorflow-deeplab-resnet)
 -  [rishizek/tensorflow-deeplab-v3-plus  ](https://github.com/rishizek/tensorflow-deeplab-v3-plus)
 -  [tensorflow/models](https://github.com/tensorflow/models/tree/master/official)
+-  [Boundary-Aware CNN ](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8804185)
 
